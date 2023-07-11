@@ -122,6 +122,18 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WCYYWNWK
 
+[ProjectVariant1]
+UniqueID=09471204-5CA8-46B3-B193-2AEC888DFA7D
+Description=Основная схема СБ
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=R7|UniqueId=\KIPYMULL|Kind=1|AlternatePart= 
+Variation2=Designator=R12|UniqueId=\JHBTLOGE|Kind=1|AlternatePart= 
+Variation3=Designator=R10|UniqueId=\PNZPDSRG|Kind=0|AlternatePart= 
+Variation4=Designator=R13|UniqueId=\RIVZAXVZ|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -970,7 +982,7 @@ Type67=1
 Type68=1
 
 [Electrical Rules Check]
-Type1=1
+Type1=0
 Type2=1
 Type3=2
 Type4=1
