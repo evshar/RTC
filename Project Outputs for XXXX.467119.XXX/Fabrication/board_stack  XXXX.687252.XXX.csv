@@ -1,0 +1,34 @@
+﻿Board Layer Stack;;;;;;;;;;;;;;;;;
+Number;Name;Type;Color;Manufacturer;Material;Process;Thickness (mm);Weight (oz);Dk;Df;Orientation;Copper Orientation;Description;Constructions;Resin (%);Material Frequency (GHz);GlassTransTemp (°C)
+;Top Overlay;Overlay;;;;;;;;;;;;;;;
+;Top Solder;Solder Mask;;;Solder Resist;;0.01;;3,50;;;;;;;;
+;Top Surface Finish;Surface Finish;#FFF2F2F2;;PbSn;HASL;0.02;;;;;;;;;;
+1;Top Layer;Signal;;Rezonit;Cu;ED;0.018;0.5;;;Top;Above;;;;;
+;Dielectric 1;Prepreg;;Rezonit;FR4 PR;;0.115;;4,20;0.016;;;;-;56;5;150
+2;GND Layer;Signal;;Rezonit;Cu;ED;0.018;0.5;;;Not allowed;Above;Copper Foil;;;;
+;Dielectric1;Core;;Rezonit;FR4 Tg150;;1.164;;4,60;0.016;;;;-;50;5;150
+3;Power Layer;Signal;;Rezonit;Cu;ED;0.018;0.5;;;Not allowed;Below;Copper Foil;;;;
+;Dielectric 2;Prepreg;;Rezonit;FR4 PR;;0.115;;4,20;0.016;;;;-;56;5;150
+4;Bottom Layer;Signal;;Rezonit;Cu;ED;0.018;0.5;;;Bottom;Below;;;;;
+;Bottom Surface Finish;Surface Finish;#FFF2F2F2;;PbSn;HASL;0.02;;;;;;;;;;
+;Bottom Solder;Solder Mask;;;Solder Resist;;0.01;;3,50;;;;;;;;
+;Bottom Overlay;Overlay;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+Impedances;;;;;;;;;;;;;;;;;
+#;Target impedance (Ω);Type;Trace layer;Calculated impedance (Ω);Trace width (mm);Gap (mm);Reference layers;Stack;;;;;;;;;
+1;50;Single;Top Layer;50.0573;0.206;;GND Layer;Board Layer Stack;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+2;50;Single;Bottom Layer;50.0573;0.206;;Power Layer;Board Layer Stack;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+3;100;Diff pair;Top Layer;99.9871;0.146;0.127;GND Layer;Board Layer Stack;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+4;100;Diff pair;Bottom Layer;99.9871;0.146;0.127;Power Layer;Board Layer Stack;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+Via types;;;;;;;;;;;;;;;;;
+#;Name;Type;Layers;Stack;;;;;;;;;;;;;
+1;Thru 1:4;Thru;Top Layer-Bottom Layer;Board Layer Stack;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+No back drills;;;;;;;;;;;;;;;;;

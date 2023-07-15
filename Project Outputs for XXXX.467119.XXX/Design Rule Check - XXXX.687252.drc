@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\WORK\RTC\RTC\xxxxxx.001.PcbDoc
-Date     : 14.07.2023
-Time     : 15:07:19
+PCB File : D:\WORK file\RTC\XXXX.687252.XXX.PcbDoc
+Date     : 15.07.2023
+Time     : 18:37:21
 
 Processing Rule : Clearance Constraint (Gap=0.5mm) (InAnyDifferentialPair or InNetClass('50OHM')),((OnLayer('Top Layer') or OnLayer ('Bottom Layer'))  and InPolygon)
 Rule Violations :0
@@ -27,7 +27,7 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=0.125mm) (Max=10mm) (Preferred=0.2mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=50,00ohms) (Max=50,00ohms) (Preferred=50,00ohms) (InNetClass('50OHM'))
+Processing Rule : Width Constraint (Min=0.206mm) (Max=0.254mm) (Preferred=0.254mm) (InNetClass('50OHM'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.4mm) (Air Gap=0.2mm) (Entries=4) (InNetClass('PWR'))
@@ -81,4 +81,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:04
+Time Elapsed        : 00:00:05
